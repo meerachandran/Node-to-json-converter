@@ -1,0 +1,9 @@
+name: Node to json converter
+type: module
+description: Alter site information form and adds a key , if key is present on a given format url node is represented in json format
+package: custom
+core_version_requirement: ^8.7.7 || ^9
+dependencies:
+  - drupal:serialization
+version: '8.7.7'
+datestamp: 1605504788

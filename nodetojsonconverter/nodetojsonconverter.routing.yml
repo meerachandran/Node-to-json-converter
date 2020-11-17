@@ -1,0 +1,7 @@
+nodetojsonconverter.get_page_json:
+  path: 'page_json/{api_key}/{nid}'
+  defaults:
+   _controller: '\Drupal\nodetojsonconverter\Controller\PageJsonController::getPageJson'
+   _title: 'Json representaion of the given node.'
+  requirements:
+   _permission: 'administer content'
